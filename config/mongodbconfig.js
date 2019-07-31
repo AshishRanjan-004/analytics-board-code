@@ -7,7 +7,7 @@ function dbConfig() {
             useNewUrlParser: true
         })
         .then(() => console.log("connected to MongoDb"))
-        .catch(err => console.log("could not connect to mongodb"));
+        .catch(err => console.log("could not connect to mongodb" + err));
 
 }
 
