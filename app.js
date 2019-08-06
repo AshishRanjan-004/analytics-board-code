@@ -4,8 +4,9 @@ const cors = require("cors");
 const bodyParser = require('body-parser')
 const dbConnection = require('./config/mongodbconfig')
 const files = require('./routes/files')
+const train = require('./routes/train')
 
-//good work
+
 
 //global variables
 var result = null;
@@ -20,7 +21,7 @@ dbConnection.dbConfig();
 
 //middleware to access the api of files.js
 app.use('/api', files);
-
+app.use('/api/train', train);
 
 
 app.listen(3000, () => {

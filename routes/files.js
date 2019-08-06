@@ -10,8 +10,7 @@ const Files = model.Files;
 
 //columnsData for showing data on UI while fetching data for entity:value
 //doing commit
-let columnsData = [
-  {
+let columnsData = [{
     label: "S No.",
     field: "id",
     sort: "asc",
@@ -131,13 +130,10 @@ router.get("/search/:entityname/:entityvalue", async (req, res) => {
 router.get("/projection/:entity", async (req, res) => {
   try {
     console.log(req.params);
-    const retrievedjson = await Files.find(
-      {},
-      {
-        [req.params.entity]: 1,
-        _id: 1
-      }
-    );
+    const retrievedjson = await Files.find({}, {
+      [req.params.entity]: 1,
+      _id: 1
+    });
     let modifiedjson = retrievedjson;
     modifiedjson = JSON.stringify(modifiedjson)
       .split(`"${req.params.entity}"`)
@@ -149,6 +145,7 @@ router.get("/projection/:entity", async (req, res) => {
   }
 });
 
+//API to get the document attached with the given id.
 router.get("/contracts/:id", async (req, res) => {
   try {
     console.log(req.params);
@@ -173,6 +170,8 @@ router.get("/contracts/:id", async (req, res) => {
     res.status(400).send("something went wrong" + "/n/n/n" + e);
   }
 });
+
+
 
 //exporting the routers
 module.exports = router;

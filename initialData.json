@@ -1,0 +1,1671 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": [
+            {
+                "intent": "goodbye",
+                "text": "Bye"
+            },
+            {
+                "intent": "goodbye",
+                "text": "Goodbye"
+            },
+            {
+                "intent": "goodbye",
+                "text": "See you later"
+            },
+            {
+                "intent": "goodbye",
+                "text": "Bye bot"
+            },
+            {
+                "intent": "goodbye",
+                "text": "Goodbye friend"
+            },
+            {
+                "intent": "goodbye",
+                "text": "bye"
+            },
+            {
+                "intent": "goodbye",
+                "text": "bye for now"
+            },
+            {
+                "intent": "goodbye",
+                "text": "catch you later"
+            },
+            {
+                "intent": "goodbye",
+                "text": "gotta go"
+            },
+            {
+                "intent": "goodbye",
+                "text": "See you"
+            },
+            {
+                "intent": "goodbye",
+                "text": "goodnight"
+            },
+            {
+                "intent": "goodbye",
+                "text": "have a nice day"
+            },
+            {
+                "intent": "goodbye",
+                "text": "i'm off"
+            },
+            {
+                "intent": "goodbye",
+                "text": "see you later alligator"
+            },
+            {
+                "intent": "goodbye",
+                "text": "we'll speak soon"
+            },
+            {
+                "intent": "greet",
+                "text": "Hi"
+            },
+            {
+                "intent": "greet",
+                "text": "Hey"
+            },
+            {
+                "intent": "greet",
+                "text": "Hi bot"
+            },
+            {
+                "intent": "greet",
+                "text": "Hey bot"
+            },
+            {
+                "intent": "greet",
+                "text": "Hello"
+            },
+            {
+                "intent": "greet",
+                "text": "Good morning"
+            },
+            {
+                "intent": "greet",
+                "text": "hi again"
+            },
+            {
+                "intent": "greet",
+                "text": "hi folks"
+            },
+            {
+                "intent": "greet",
+                "text": "hi Mister"
+            },
+            {
+                "intent": "greet",
+                "text": "hi pal!"
+            },
+            {
+                "intent": "greet",
+                "text": "hi there"
+            },
+            {
+                "intent": "greet",
+                "text": "greetings"
+            },
+            {
+                "intent": "greet",
+                "text": "hello everybody"
+            },
+            {
+                "intent": "greet",
+                "text": "hello is anybody there"
+            },
+            {
+                "intent": "greet",
+                "text": "hello robot"
+            },
+            {
+                "intent": "thanks",
+                "text": "Thanks"
+            },
+            {
+                "intent": "thanks",
+                "text": "Thank you"
+            },
+            {
+                "intent": "thanks",
+                "text": "Thank you so much"
+            },
+            {
+                "intent": "thanks",
+                "text": "Thanks bot"
+            },
+            {
+                "intent": "thanks",
+                "text": "Thanks for that"
+            },
+            {
+                "intent": "thanks",
+                "text": "cheers"
+            },
+            {
+                "intent": "thanks",
+                "text": "cheers bro"
+            },
+            {
+                "intent": "thanks",
+                "text": "ok thanks!"
+            },
+            {
+                "intent": "thanks",
+                "text": "perfect thank you"
+            },
+            {
+                "intent": "thanks",
+                "text": "thanks a bunch for everything"
+            },
+            {
+                "intent": "thanks",
+                "text": "thanks for the help"
+            },
+            {
+                "intent": "thanks",
+                "text": "thanks a lot"
+            },
+            {
+                "intent": "thanks",
+                "text": "amazing, thanks"
+            },
+            {
+                "intent": "thanks",
+                "text": "cool, thanks"
+            },
+            {
+                "intent": "thanks",
+                "text": "cool thank you"
+            },
+            {
+                "intent": "affirm",
+                "text": "yes"
+            },
+            {
+                "intent": "affirm",
+                "text": "yes sure"
+            },
+            {
+                "intent": "affirm",
+                "text": "absolutely"
+            },
+            {
+                "intent": "affirm",
+                "text": "for sure"
+            },
+            {
+                "intent": "affirm",
+                "text": "yes yes yes"
+            },
+            {
+                "intent": "affirm",
+                "text": "definitely"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 11,
+                        "end": 16,
+                        "value": "Juste",
+                        "entity": "name"
+                    }
+                ],
+                "text": "My name is Juste"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 9,
+                        "value": "Josh",
+                        "entity": "name"
+                    }
+                ],
+                "text": "I am Josh"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 8,
+                        "value": "Lucy",
+                        "entity": "name"
+                    }
+                ],
+                "text": "I'm Lucy"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 19,
+                        "value": "Greg",
+                        "entity": "name"
+                    }
+                ],
+                "text": "People call me Greg"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 10,
+                        "value": "David",
+                        "entity": "name"
+                    }
+                ],
+                "text": "It's David"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 23,
+                        "end": 26,
+                        "value": "Amy",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Usually people call me Amy"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 11,
+                        "end": 15,
+                        "value": "John",
+                        "entity": "name"
+                    }
+                ],
+                "text": "My name is John"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 16,
+                        "end": 19,
+                        "value": "Sam",
+                        "entity": "name"
+                    }
+                ],
+                "text": "You can call me Sam"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 20,
+                        "value": "Linda",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Please call me Linda"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 16,
+                        "value": "Tom",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Name name is Tom"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 12,
+                        "value": "Richard",
+                        "entity": "name"
+                    }
+                ],
+                "text": "I am Richard"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 9,
+                        "value": "Tracy",
+                        "entity": "name"
+                    }
+                ],
+                "text": "I'm Tracy"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 13,
+                        "value": "Sally",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Call me Sally"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 12,
+                        "value": "Philipp",
+                        "entity": "name"
+                    }
+                ],
+                "text": "I am Philipp"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 12,
+                        "value": "Charlie",
+                        "entity": "name"
+                    }
+                ],
+                "text": "I am Charlie"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 12,
+                        "value": "Charlie",
+                        "entity": "name"
+                    }
+                ],
+                "text": "I am Charlie"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 8,
+                        "value": "Ben",
+                        "entity": "name"
+                    }
+                ],
+                "text": "I am Ben"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 13,
+                        "value": "Susan",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Call me Susan"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Lucy",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Lucy"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "value": "Peter",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Peter"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Mark",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Mark"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 6,
+                        "value": "Joseph",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Joseph"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 3,
+                        "value": "Tan",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Tan"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Pete",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Pete"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Elon",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Elon"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "value": "Penny",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Penny"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 14,
+                        "value": "Andrew",
+                        "entity": "name"
+                    }
+                ],
+                "text": "name is Andrew"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 2,
+                        "end": 6,
+                        "value": "Lora",
+                        "entity": "name"
+                    }
+                ],
+                "text": "I Lora"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Stan",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Stan is my name"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 5,
+                        "value": "Susan",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Susan is the name"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Ross",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Ross is my first name"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 0,
+                        "end": 4,
+                        "value": "Bing",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Bing is my last name"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 23,
+                        "value": "Angelina",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Few call me as Angelina"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 18,
+                        "value": "Julia",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Some call me Julia"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 23,
+                        "value": "Laura",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Everyone calls me Laura"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 11,
+                        "value": "Ganesh",
+                        "entity": "name"
+                    }
+                ],
+                "text": "I am Ganesh"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 11,
+                        "end": 15,
+                        "value": "Mike",
+                        "entity": "name"
+                    }
+                ],
+                "text": "My name is Mike"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 13,
+                        "end": 19,
+                        "value": "Monika",
+                        "entity": "name"
+                    }
+                ],
+                "text": "just call me Monika"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 9,
+                        "end": 12,
+                        "value": "Dan",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Few call Dan"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 23,
+                        "end": 28,
+                        "value": "Suraj",
+                        "entity": "name"
+                    }
+                ],
+                "text": "You can always call me Suraj"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 18,
+                        "end": 24,
+                        "value": "Andrew",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Some will call me Andrew"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 11,
+                        "end": 15,
+                        "value": "Ajay",
+                        "entity": "name"
+                    }
+                ],
+                "text": "My name is Ajay"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 7,
+                        "end": 11,
+                        "value": "Ding",
+                        "entity": "name"
+                    }
+                ],
+                "text": "I call Ding"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 4,
+                        "end": 10,
+                        "value": "Partia",
+                        "entity": "name"
+                    }
+                ],
+                "text": "I'm Partia"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 15,
+                        "end": 18,
+                        "value": "Leo",
+                        "entity": "name"
+                    }
+                ],
+                "text": "Please call me Leo"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 8,
+                        "end": 12,
+                        "value": "Pari",
+                        "entity": "name"
+                    }
+                ],
+                "text": "name is Pari"
+            },
+            {
+                "intent": "name",
+                "entities": [
+                    {
+                        "start": 5,
+                        "end": 11,
+                        "value": "Sanjay",
+                        "entity": "name"
+                    }
+                ],
+                "text": "name Sanjay"
+            },
+            {
+                "intent": "joke",
+                "text": "Can you tell me a joke?"
+            },
+            {
+                "intent": "joke",
+                "text": "I would like to hear a joke"
+            },
+            {
+                "intent": "joke",
+                "text": "Tell me a joke"
+            },
+            {
+                "intent": "joke",
+                "text": "A joke please"
+            },
+            {
+                "intent": "joke",
+                "text": "Tell me a joke please"
+            },
+            {
+                "intent": "joke",
+                "text": "I would like to hear a joke"
+            },
+            {
+                "intent": "joke",
+                "text": "I would loke to hear a joke, please"
+            },
+            {
+                "intent": "joke",
+                "text": "Can you tell jokes?"
+            },
+            {
+                "intent": "joke",
+                "text": "Please tell me a joke"
+            },
+            {
+                "intent": "joke",
+                "text": "I need to hear a joke"
+            },
+            {
+                "intent": "upload",
+                "text": "upload"
+            },
+            {
+                "intent": "upload",
+                "text": "analyse"
+            },
+            {
+                "intent": "upload",
+                "text": "i have to upload a document"
+            },
+            {
+                "intent": "upload",
+                "text": "i have to upload a file"
+            },
+            {
+                "intent": "upload",
+                "text": "i have to upload a contract"
+            },
+            {
+                "intent": "upload",
+                "text": "analyse a document"
+            },
+            {
+                "intent": "upload",
+                "text": "analyse a file"
+            },
+            {
+                "intent": "upload",
+                "text": "analyse a contract"
+            },
+            {
+                "intent": "upload",
+                "text": "please read a file"
+            },
+            {
+                "intent": "upload",
+                "text": "please read a contract"
+            },
+            {
+                "intent": "upload",
+                "text": "please read a document"
+            },
+            {
+                "intent": "upload",
+                "text": "please analyse a file"
+            },
+            {
+                "intent": "upload",
+                "text": "please analyse a document"
+            },
+            {
+                "intent": "upload",
+                "text": "please analyse a contract"
+            },
+            {
+                "intent": "upload",
+                "text": "take a file"
+            },
+            {
+                "intent": "upload",
+                "text": "take a document"
+            },
+            {
+                "intent": "upload",
+                "text": "take a contract"
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 86,
+                        "end": 102,
+                        "value": "February 1, 2006",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 153,
+                        "end": 190,
+                        "value": "ROCKY MOUNTAIN SUPPORT SERVICES, INC.",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 229,
+                        "end": 264,
+                        "value": "FIDELITY NATIONAL TAX SERVICE, INC.",
+                        "entity": "secondParty"
+                    }
+                ],
+                "text": "This AMENDED AND RESTATED SOFTWARE LICENSE AGREEMENT (the “Agreement”) is dated as of February 1, 2006 (the “Effective Date”) and is made by and between ROCKY MOUNTAIN SUPPORT SERVICES, INC., an Arizona corporation, (“RMSS”) and FIDELITY NATIONAL TAX SERVICE, INC., a California corporation (“Licensee”)."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 65,
+                        "end": 77,
+                        "value": "June 9, 2004",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 171,
+                        "end": 184,
+                        "value": "Altiris, Inc.",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 249,
+                        "end": 285,
+                        "value": "588 W. 400 South, Lindon, Utah 84042",
+                        "entity": "firstPartyAddress"
+                    },
+                    {
+                        "start": 290,
+                        "end": 307,
+                        "value": "Dell Products L.P",
+                        "entity": "secondParty"
+                    }
+                ],
+                "text": "This Amendment Number Five to Software Licensing Agreement dated June 9, 2004, amends the terms of the Software License Agreement dated April 26, 2002, as amended between Altiris, Inc., a Delaware corporation having a principal place of business at 588 W. 400 South, Lindon, Utah 84042 and Dell Products L.P."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 65,
+                        "end": 83,
+                        "value": "24th day of , 2005",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 92,
+                        "end": 124,
+                        "value": "Nationwide Services Company, LLC",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 190,
+                        "end": 232,
+                        "value": "One Nationwide Plaza, Columbus, Ohio 43215",
+                        "entity": "firstPartyAddress"
+                    },
+                    {
+                        "start": 249,
+                        "end": 284,
+                        "value": "Nationwide Financial Services, Inc.",
+                        "entity": "secondParty"
+                    },
+                    {
+                        "start": 344,
+                        "end": 386,
+                        "value": "One Nationwide Plaza, Columbus, Ohio 43215",
+                        "entity": "secondPartyAddress"
+                    }
+                ],
+                "text": "This Software License Agreement (Agreement) is entered into this 24th day of , 2005 between Nationwide Services Company, LLC, an Ohio limited liability company (Nationwide), with offices at One Nationwide Plaza, Columbus, Ohio 43215 (Licensor), and Nationwide Financial Services, Inc. and its Subsidiaries, an Ohio corporation, with offices at One Nationwide Plaza, Columbus, Ohio 43215 (Licensee)."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 90,
+                        "end": 113,
+                        "value": "29th day of March, 2004",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 130,
+                        "end": 170,
+                        "value": "CADMUS KNOWLEDGEWORKS INTERNATIONAL LTD.",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 255,
+                        "end": 387,
+                        "value": "c/o Abacus Financial Services (Mauritius) Limited, Third Floor, TM Building, Pope Hennessy Street, Port Louis, Republic of Mauritius",
+                        "entity": "firstPartyAddress"
+                    },
+                    {
+                        "start": 432,
+                        "end": 469,
+                        "value": "KNOWLEDGEWORKS GLOBAL PRIVATE LIMITED",
+                        "entity": "secondParty"
+                    },
+                    {
+                        "start": 565,
+                        "end": 641,
+                        "value": "Knowledge Centre, Street No. 17, MIDC, Andheri (East), Mumbai 400 093, India",
+                        "entity": "secondPartyAddress"
+                    }
+                ],
+                "text": "This Software License Agreement (hereinafter referred to as the “Agreement”) is made this 29th day of March, 2004, by and between CADMUS KNOWLEDGEWORKS INTERNATIONAL LTD., a company incorporated under the laws of Mauritius having its registered office at c/o Abacus Financial Services (Mauritius) Limited, Third Floor, TM Building, Pope Hennessy Street, Port Louis, Republic of Mauritius (hereinafter referred to as “Licensor”) and KNOWLEDGEWORKS GLOBAL PRIVATE LIMITED, a company incorporated in India under the Companies Act, 1956 having its registered office at Knowledge Centre, Street No. 17, MIDC, Andheri (East), Mumbai 400 093, India (hereinafter referred to as “Customer”)."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 71,
+                        "end": 88,
+                        "value": "August 24th, 2015",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 132,
+                        "end": 190,
+                        "value": "Zhengzhou Xiangtian Information Technology Company Limited",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 234,
+                        "end": 333,
+                        "value": "81 Hao Lou, Zong Bu Qi Ye Ji Di Gao Xin Qu, Ying Chun Ji Zheng Zhou City, Henan Province PRC, China",
+                        "entity": "firstPartyAddress"
+                    },
+                    {
+                        "start": 353,
+                        "end": 392,
+                        "value": "China Soar Information Technology, Inc.",
+                        "entity": "secondParty"
+                    },
+                    {
+                        "start": 441,
+                        "end": 491,
+                        "value": "12 Harcourt Road, Bank of America Tower, Hong Kong",
+                        "entity": "secondPartyAddress"
+                    }
+                ],
+                "text": "This Software License AND ROYALTY AGREEMENT (\"Agreement\"), dated as of August 24th, 2015 (the \"Effective Date\"), is by and between, Zhengzhou Xiangtian Information Technology Company Limited, a PRC Corporation with offices located at 81 Hao Lou, Zong Bu Qi Ye Ji Di Gao Xin Qu, Ying Chun Ji Zheng Zhou City, Henan Province PRC, China, (\"Licensee\"), and China Soar Information Technology, Inc., a Delaware corporation with offices located at 12 Harcourt Road, Bank of America Tower, Hong Kong, (\"Licensor\")."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 51,
+                        "end": 74,
+                        "value": "INTERCEPT SYSTEMS, INC.",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 79,
+                        "end": 105,
+                        "value": "PHOENIX INTERNATIONAL LTD.",
+                        "entity": "secondParty"
+                    },
+                    {
+                        "start": 119,
+                        "end": 135,
+                        "value": "JANUARY 15, 1998",
+                        "entity": "effectiveDate"
+                    }
+                ],
+                "text": "SOFTWARE LICENSE AND DEVELOPMENT AGREEMENT BETWEEN INTERCEPT SYSTEMS, INC. AND PHOENIX INTERNATIONAL LTD., INC. DATED: JANUARY 15, 1998"
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 70,
+                        "end": 84,
+                        "value": "25th July 2008",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 101,
+                        "end": 115,
+                        "value": "FocusSoft Inc.",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 171,
+                        "end": 240,
+                        "value": "304 Whittington Parkway Louisville, Kentucky 40222, USA (\"FocusSoft\")",
+                        "entity": "firstPartyAddress"
+                    },
+                    {
+                        "start": 245,
+                        "end": 252,
+                        "value": "Medicis",
+                        "entity": "secondParty"
+                    },
+                    {
+                        "start": 298,
+                        "end": 339,
+                        "value": "4343 East Camelback Rd, Phoenix, AZ 85018",
+                        "entity": "secondPartyAddress"
+                    }
+                ],
+                "text": "This Master Software License Agreement (this \"Agreement\") is dated on 25th July 2008, by and between FocusSoft Inc., a corporation having a principal place of business at 304 Whittington Parkway Louisville, Kentucky 40222, USA (\"FocusSoft\") and Medicis, a corporation having a place of business at 4343 East Camelback Rd, Phoenix, AZ 85018 (\"CUSTOMER\")."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 90,
+                        "end": 115,
+                        "value": "26th day of January, 2005",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 132,
+                        "end": 155,
+                        "value": "VSUS Technologies, Inc.",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 235,
+                        "end": 285,
+                        "value": "444 Madison Avenue, 24th floor, New York, NY 10022",
+                        "entity": "firstPartyAddress"
+                    },
+                    {
+                        "start": 316,
+                        "end": 336,
+                        "value": "ViVaVu Systems, Ltd.",
+                        "entity": "secondParty"
+                    }
+                ],
+                "text": "This Software License Agreement (hereinafter the \"Agreement\"), is hereby executed on this 26th day of January, 2005, by and between VSUS Technologies, Inc., a Delaware corporation (\"Licensor\") having its principal executive offices at 444 Madison Avenue, 24th floor, New York, NY 10022, c/o Great Court Capital, and ViVaVu Systems, Ltd., an Israeli corporation (\"Licensee\") founded by Mr. Amiram Ofir, an individual residing in Israel (\"Amiram\") who, prior to today, was the founder and Chief Executive Officer of Licensor."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 80,
+                        "end": 96,
+                        "value": "October 10, 2012",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 137,
+                        "end": 162,
+                        "value": "Consorteum Holdings, Inc.",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 203,
+                        "end": 282,
+                        "value": "5045 Orbitor Road, Building 8, Suite 200, Mississauga, Ontario, Canada, L4W 4Y4",
+                        "entity": "firstPartyAddress"
+                    },
+                    {
+                        "start": 301,
+                        "end": 312,
+                        "value": "Tarsin Inc.",
+                        "entity": "secondParty"
+                    },
+                    {
+                        "start": 365,
+                        "end": 409,
+                        "value": "916 Southwood Blvd., Incline Village, Nevada",
+                        "entity": "secondPartyAddress"
+                    }
+                ],
+                "text": "This Software License AND ROYALTY AGREEMENT (this \"Agreement\"), effective as of October 10, 2012 (the \"Effective Date\"), is made between Consorteum Holdings, Inc., a Nevada corporation with an office at 5045 Orbitor Road, Building 8, Suite 200, Mississauga, Ontario, Canada, L4W 4Y4 (“Licensee”), and Tarsin Inc., a Nevada corporation with its registered office at 916 Southwood Blvd., Incline Village, Nevada (“Licensor”). Each of Licensee and Licensor is a “Party” and collectively, the “Parties.”"
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 34,
+                        "end": 55,
+                        "value": "D2 Technologies, Inc.",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 125,
+                        "end": 170,
+                        "value": "104 West Anapamu St., Santa Barbara, CA 93101",
+                        "entity": "firstPartyAddress"
+                    },
+                    {
+                        "start": 201,
+                        "end": 224,
+                        "value": "Vodavi Technology, Inc.",
+                        "entity": "secondParty"
+                    },
+                    {
+                        "start": 286,
+                        "end": 328,
+                        "value": "8300 E. Raintree Dr., Scottsdale, AZ 85260",
+                        "entity": "secondPartyAddress"
+                    }
+                ],
+                "text": "This Agreement is entered into by D2 Technologies, Inc. a corporation of the State of California with a place of business at 104 West Anapamu St., Santa Barbara, CA 93101 (hereinafter called \"D2\") and Vodavi Technology, Inc. a Deleware corporation with a principal place of business at 8300 E. Raintree Dr., Scottsdale, AZ 85260 (hereinafter called \"LICENSEE\"). The effective date of this Agreement shall be the later of the dates executed by the respective parties."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 68,
+                        "end": 81,
+                        "value": "July 23, 2010",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 120,
+                        "end": 150,
+                        "value": "Team Awesome Productions, Inc.",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 183,
+                        "end": 200,
+                        "value": "CrowdGather, Inc.",
+                        "entity": "secondParty"
+                    }
+                ],
+                "text": "This Software License Agreement (“Agreement”) is entered into as of July 23, 2010 (the \"Effective Date\") by and between Team Awesome Productions, Inc. d/b/a “Lefora” (\"Licensor\") and CrowdGather, Inc. (\"Licensee\") and is attached to that certain Asset Purchase Agreement by and between Licensor and Licensee of even date (“Asset Purchase Agreement”). Capitalized terms not otherwise defined herein shall have the same meanings ascribed to them in the Asset Purchase Agreement."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 145,
+                        "end": 165,
+                        "value": "between Jabber, Inc.",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 206,
+                        "end": 220,
+                        "value": "France Telecom",
+                        "entity": "secondParty"
+                    },
+                    {
+                        "start": 275,
+                        "end": 291,
+                        "value": "October 17, 2002",
+                        "entity": "effectiveDate"
+                    }
+                ],
+                "text": "FIRST AMENDMENT TO JABBER OEM SOFTWARE LICENSE AGREEMENT This FIRST AMENDMENT TO JABBER OEM SOFTWARE LICENSE AGREEMENT (this “Amendment”) by and between Jabber, Inc., a Delaware corporation (“Jabber”), and France Telecom, a French corporation (“Distributor”), is dated as of October 17, 2002."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 116,
+                        "end": 135,
+                        "value": "SOFTWARE 2000, INC.",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 191,
+                        "end": 247,
+                        "value": "25 Communications Way, Hyannis, Massachusetts 02601, USA",
+                        "entity": "firstPartyAddress"
+                    },
+                    {
+                        "start": 270,
+                        "end": 299,
+                        "value": "SIMIONE CENTRAL HOLDING, INC.",
+                        "entity": "secondParty"
+                    },
+                    {
+                        "start": 345,
+                        "end": 391,
+                        "value": "6650 Powers Ferry Road, Atlanta, Georgia 30339",
+                        "entity": "secondPartyAddress"
+                    }
+                ],
+                "text": "This Master Software License Agreement (this \"Agreement\") is made as of the last date written below, by and between SOFTWARE 2000, INC., a corporation having a principal place of business at 25 Communications Way, Hyannis, Massachusetts 02601, USA (\"SOFTWARE 2000\") and SIMIONE CENTRAL HOLDING, INC., a corporation having a place of business at 6650 Powers Ferry Road, Atlanta, Georgia 30339 (\"CUSTOMER\")."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 33,
+                        "end": 53,
+                        "value": "8th day of May, 1998",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 69,
+                        "end": 91,
+                        "value": "SIBONEY LEARNING GROUP",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 123,
+                        "end": 199,
+                        "value": "8135 Forsyth, Suite 212, St. Louis, Missouri 63105, United States of America",
+                        "entity": "firstPartyAddress"
+                    },
+                    {
+                        "start": 204,
+                        "end": 221,
+                        "value": "NECTAR FOUNDATION",
+                        "entity": "secondParty"
+                    },
+                    {
+                        "start": 252,
+                        "end": 302,
+                        "value": "10 Bowhill Avenue, Nepean, Ontario, Canada K2E 6S7",
+                        "entity": "secondPartyAddress"
+                    }
+                ],
+                "text": "THIS AGREEMENT is made as of the 8th day of May, 1998 by and between SIBONEY LEARNING GROUP (\"Siboney\") with an address at 8135 Forsyth, Suite 212, St. Louis, Missouri 63105, United States of America and NECTAR FOUNDATION (\"NECTAR\") with an address at 10 Bowhill Avenue, Nepean, Ontario, Canada K2E 6S7."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 81,
+                        "end": 105,
+                        "value": "16th day of October 2001",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 137,
+                        "end": 168,
+                        "value": "Webb Interactive Services, Inc.",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 172,
+                        "end": 192,
+                        "value": "Colorado corporation",
+                        "entity": "secondParty"
+                    },
+                    {
+                        "start": 206,
+                        "end": 234,
+                        "value": "Nextron Communications, Inc.",
+                        "entity": "secondParty"
+                    }
+                ],
+                "text": "This Webb Software License Agreement (the \"Agreement\") is entered into as of the 16th day of October 2001 (the \"Effective Date\") between Webb Interactive Services, Inc., a Colorado corporation (\"Webb\") and Nextron Communications, Inc., a California corporation (\"Licensee\"), (Webb and Licensee individually, a \"Party\" and collectively, the \"Parties\")."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 46,
+                        "end": 58,
+                        "value": "May 13, 1997",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 74,
+                        "end": 89,
+                        "value": "CyberCash, Inc.",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 161,
+                        "end": 175,
+                        "value": "CyberCash K.K.",
+                        "entity": "secondParty"
+                    }
+                ],
+                "text": "This Agreement is made and entered into as of May 13, 1997 by and between CyberCash, Inc., a corporation organized under the laws of Delaware (\"CyberCash\"); and CyberCash K.K., a corporation organized under the laws of Japan (\"CCKK\")."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 58,
+                        "end": 69,
+                        "value": "May 1, 2009",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 109,
+                        "end": 134,
+                        "value": "CombinatoRx, Incorporated",
+                        "entity": "firstParty"
+                    },
+                    {
+                        "start": 136,
+                        "end": 196,
+                        "value": "245 1st Street, Fourth Floor, Cambridge, Massachusetts 02142",
+                        "entity": "firstPartyAddress"
+                    },
+                    {
+                        "start": 217,
+                        "end": 266,
+                        "value": "Novartis Institutes for BioMedical Research, Inc.",
+                        "entity": "secondParty"
+                    },
+                    {
+                        "start": 268,
+                        "end": 324,
+                        "value": "250 Massachusetts Avenue, Cambridge, Massachusetts 02139",
+                        "entity": "secondPartyAddress"
+                    }
+                ],
+                "text": "Software License Agreement (this “Agreement”) dated as of May 1, 2009, (the “Effective Date”) by and between CombinatoRx, Incorporated, 245 1st Street, Fourth Floor, Cambridge, Massachusetts 02142 (“CombinatoRx”) and Novartis Institutes for BioMedical Research, Inc., 250 Massachusetts Avenue, Cambridge, Massachusetts 02139 (“Novartis”)."
+            },
+            {
+                "intent": "effectiveDate&PartyNames&Address",
+                "entities": [
+                    {
+                        "start": 80,
+                        "end": 91,
+                        "value": "May 8, 1997",
+                        "entity": "effectiveDate"
+                    },
+                    {
+                        "start": 130,
+                        "end": 169,
+                        "value": "EVANS & SUTHERLAND COMPUTER CORPORATION",
+                        "entity": "firstParty"
+                    }
+                ],
+                "text": "THIS SOFTWARE LICENSING AGREEMENT (the \"AGREEMENT\") made and entered into as of May 8, 1997 (the \"EFFECTIVE DATE\") by and between EVANS & SUTHERLAND COMPUTER CORPORATION (\"E&S\"), a Utah corporation, and the party executing below (\"LICENSEE\"), each having an office for the conduct of business at the addresses indicated below (E&S and Licensee are hereinafter referred to individually as a \"PARTY\" and collectively as the \"PARTIES\")."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 145,
+                        "end": 154,
+                        "value": "36 months",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "I Subject to termination pursuant to this Agreement, the Non Exclusive license granted by Licensor to Licensee shall be for an initial period of 36 months, commencing from the acceptance date, (the “Initial Period”)."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 90,
+                        "end": 105,
+                        "value": "three (3) years",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "This Agreement shall commence on the date above and shall continue in force for a term of three (3) years unless terminated earlier under the provisions of this Agreement."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 150,
+                        "end": 159,
+                        "value": "15 months",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "The obligations and provisions of this provision shall survive the expiration and termination of the other portions of this Agreement for a period of 15 months from effective date."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 113,
+                        "end": 135,
+                        "value": "29th day of March 2007",
+                        "entity": "validity"
+                    },
+                    {
+                        "start": 159,
+                        "end": 183,
+                        "value": "fifteen-month transition",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "This Agreement shall be effective from the Effective Date through the effective date of termination which is the 29th day of March 2007 or the expiration of a fifteen-month transition period following Licensee’s receipt of notice of termination."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 95,
+                        "end": 110,
+                        "value": "five (5) years.",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "The provisions of this section shall survive the termination of this Agreement for a period of five (5) years."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 139,
+                        "end": 162,
+                        "value": "twenty-four (24) months",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "\"Term\" means the period of time specified on Schedule A, or if no The term is specified on Schedule A, then the Term shall be deemed to be twenty-four (24) months commencing from the Effective Date"
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 90,
+                        "end": 99,
+                        "value": "two years",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "This Agreement shall take effect upon signature and shall remain in place for a period of two years extendable by written agreement between the Parties and subject to earlier termination in accordance with Clause 9."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 256,
+                        "end": 274,
+                        "value": "twelve (12) months",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "This Exhibit shall commence on the Effective Date of the Agreement and shall remain in full force and effect for Initial Term set forth above. This Exhibit shall automatically renew at the end of the Initial Term (and thereafter) for additional periods of twelve (12) months (each a “Renewal Term”) at Guidewire’s then-current fees (provided that Guidewire provides notice of any increase in fees to be applied during the next Renewal Term at least ninety (90) days prior to the end of the then-current term), unless terminated by either party by written notice no less than thirty (30) days prior to the end of the then-current term."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 137,
+                        "end": 144,
+                        "value": "5 years",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "This Agreement and the license granted herein shall have an initial term commencing on the Effective Date and continuing for a period of 5 years from the Effective Date (the \"Initial Term\")."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 131,
+                        "end": 145,
+                        "value": "March 15, 2004",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "Term of Agreement. Unless terminated earlier pursuant to this Section 9 this Agreement shall have a term of Effective Date through March 15, 2004 (the \"Term\")."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 93,
+                        "end": 107,
+                        "value": "ten (10) years",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "The term of this Agreement shall commence on the effective date and continue for a period of ten (10) years (the “Initial Term”) unless terminated in accordance with its term."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 137,
+                        "end": 144,
+                        "value": "5 years",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "This Agreement and the license granted herein shall have an initial term commencing on the Effective Date and continuing for a period of 5 years from the Implementation Date (the \"Initial Term\")"
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 155,
+                        "end": 182,
+                        "value": "three years and five months",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "This Agreement shall commence and be deemed effective on the date when fully executed (the \"Effective Date\").  This Agreement is in effect for a period of three years and five months (the \"Term\") and shall be automatically renewed indefinitely with additional one-year terms unless the Licensee gives written notice of termination of this  Agreement at least 45 days prior to the end of any one year period."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 36,
+                        "end": 48,
+                        "value": "one (1) year",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "The term of this Agreement shall be one (1) year from the date hereof, and shall renew automatically for additional one year periods unless either party gives the other party written notice of cancellation at least sixty (60) days prior to the end of the then current term."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 45,
+                        "end": 52,
+                        "value": "5 years",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "This Agreement shall have an initial term of 5 years, and shall thereafter have optional renewal."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 59,
+                        "end": 82,
+                        "value": "forty-eight (48) months",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "The term of this license shall be for an initial period of forty-eight (48) months (\"initial term\"), commencing on the date of execution of this Agreement."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 36,
+                        "end": 50,
+                        "value": "five (5) years",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "At the end of each quarter, and for five (5) years from the Effective Date, or for a longer period if agreed to by the Parties, in the event that either Party has made any Derivative Work from the Joint Software, such Party shall deliver to the other Party one copy of the Source Code of such Derivative Work, in a sealed and dated envelope, in the form of a CD-ROM, or other appropriate media."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 98,
+                        "end": 112,
+                        "value": "five (5) years",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "The term  hereunder  shall  begin upon the  Effective  date,  and shall continue  for a period of five (5) years,  and may be  renewed  for the some period, unless terminated In writing by either party, within sixty (60) days of the anniversary date and as long as either party is not in default of this  Agreement."
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 118,
+                        "end": 132,
+                        "value": "five (5) years",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "Term and Termination. Unless earlier terminated as provided herein, the term of the Agreement will be for a period of five (5) years from the Effective Date"
+            },
+            {
+                "intent": "validity",
+                "entities": [
+                    {
+                        "start": 133,
+                        "end": 150,
+                        "value": "seven  (7)  years",
+                        "entity": "validity"
+                    }
+                ],
+                "text": "The confidentiality  requirements of this Section shall be in effect both during the term of this  Agreement  and for a  period  of  seven  (7)  years  after  it is terminated."
+            }
+        ],
+        "regex_features": [],
+        "lookup_tables": [],
+        "entity_synonyms": []
+    }
+}
