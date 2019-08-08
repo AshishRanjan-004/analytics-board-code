@@ -15,8 +15,14 @@ router.use(bodyParser.json({
 //API to train the model.
 router.post("/model", (req, res) => {
     let data = req.body;
+    console.log(data.length)
+    data.forEach(element => {
+        console.log(typeof element.response.fileName);
+    });
     let jsonArray = [];
     generator(jsonArray, data, res);
+    res.send("hello world");
+
 });
 
 //function that prepare the training data
@@ -27,18 +33,18 @@ function generator(jsonArray, data, res) {
         //getting all the values from the documents.
         data.forEach(eachdocumentData => {
             let entities = {
-                effectiveDate: eachdocumentData.effectiveDate,
-                validity: eachdocumentData.validity,
-                firstParty: eachdocumentData.firstParty,
-                firstPartyAddress: eachdocumentData.firstPartyAddress,
-                secondParty: eachdocumentData.secondParty,
-                secondPartyAddress: eachdocumentData.secondPartyAddress
+                effectiveDate: eachdocumentData.response.effectiveDate,
+                validity: eachdocumentData.response.validity,
+                firstParty: eachdocumentData.response.firstParty,
+                firstPartyAddress: eachdocumentData.response.firstPartyAddress,
+                secondParty: eachdocumentData.response.secondParty,
+                secondPartyAddress: eachdocumentData.response.secondPartyAddress
             };
 
             //fetching the post api of tokenizer to tokenize the documents.
             fetch("http://54.173.74.33:5000/tokenizer", {
                     method: "post",
-                    body: eachdocumentData.text,
+                    body: eachdocumentData.response.text,
 
                     headers: {
                         "Content-Type": "application/json"
@@ -51,9 +57,12 @@ function generator(jsonArray, data, res) {
                         let entityData = [];
                         for (let key in entities) {
                             if (entities[key] != "") {
-                                let value = entities[key].replace(/\n/g, " ");
+                                let value = entities[key];
+                                console.log("typeof value", typeof value)
+                                //.replace(/\n/g, " ");
                                 //preparing every entities
-                                element = element.replace(/\n/g, " ");
+                                //element = element.replace(/\n/g, " ");
+                                console.log(typeof element)
                                 if (element.includes(value)) {
                                     entityData.push({
                                         start: element.indexOf(value),

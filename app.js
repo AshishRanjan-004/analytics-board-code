@@ -8,8 +8,7 @@ const train = require('./routes/train')
 
 
 
-//global variables
-var result = null;
+
 
 //middlewares
 const app = express();
