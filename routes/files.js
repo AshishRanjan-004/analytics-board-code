@@ -54,39 +54,6 @@ let columnsData = [{
   }
 ];
 
-//API to insert all data to mongodb
-router.post("/files", (req, res) => {
-  try {
-    req.body.forEach(async values => {
-      let StartDateIntoMilliSecond = dateFormatter.startDateFormater(
-        values.startDate
-      );
-      const files = new Files({
-        startDate: StartDateIntoMilliSecond,
-        endDate: dateFormatter.endDateFormator(
-          StartDateIntoMilliSecond,
-          values.endDate
-        ),
-        firstParty: values.firstParty,
-        secondParty: values.secondParty,
-        firstPartyAddress: values.firstPartyAddress,
-        secondPartyAddress: values.secondPartyAddress,
-        fileName: values.fileName
-      });
-      try {
-        result = await files.save();
-        console.log(result);
-      } catch (ex) {
-        for (field in ex.errors) console.log(ex.errors[field].message);
-      }
-    });
-
-    res.send("all records are inserted");
-  } catch (e) {
-    res.status(400).send("something went wrong!!!!" + "/n/n/n" + e);
-  }
-});
-
 //API to fetch the search result
 router.get("/search/:entityname/:entityvalue", async (req, res) => {
   try {

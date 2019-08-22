@@ -29,7 +29,13 @@ let monthsObject = {
     december: "12"
 }
 
+//getting the all keys of monthobject
+let months = Object.keys(monthsObject);
+
+
+//function to change the startdate/effectivedate to the millisecond
 function startDateFormator(unformattedDate) {
+    //condition if the startdate start with number e.g 29th day of december, 2019
     if (unformattedDate[0] >= '0' && unformattedDate[0] <= '9') {
         let dateTokenizer = unformattedDate.replace(/\s+/g, ' ').trim().split(" ");
         let year = dateTokenizer[dateTokenizer.length - 1];
@@ -42,7 +48,9 @@ function startDateFormator(unformattedDate) {
         console.log(formateddate);
         return Date.parse(formateddate);
 
-    } else {
+    }
+    //condition if the startdate start with the month name e.g November 29, 1996 
+    else if (months.includes(unformattedDate.split(" ")[0])) {
         var d = new Date(unformattedDate),
             month = '' + (d.getMonth() + 1),
             day = '' + d.getDate(),
@@ -52,43 +60,89 @@ function startDateFormator(unformattedDate) {
         if (day.length < 2) day = '0' + day;
 
         return Date.parse([year, month, day].join('-'));
-    }
-}
-
-function endDateFormator(StartDateIntoMilliSecond, duration) {
-    let timeDuration = duration.split(" ")[0];
-    console.log(timeDuration[0]);
-    if ((timeDuration[0] >= 'A' && timeDuration[0] <= 'Z') || (timeDuration[0] >= 'a' && timeDuration[0] <= 'z')) {
-        timeDuration = WtoN.convert(timeDuration);
-
-    }
-    console.log(timeDuration);
-    let date = new Date(StartDateIntoMilliSecond);
-    let isoDate = date.toLocaleDateString().split('/');
-    let temp = isoDate[0];
-    isoDate[0] = isoDate[1];
-    isoDate[1] = temp;
-
-    isoDate = isoDate.reverse().join('-');
-    console.log(isoDate);
-    if (
-        duration.includes("year") ||
-        duration.includes("years") ||
-        duration.includes("Year") ||
-        duration.includes("Years")
-    ) {
-        return Date.parse(moment(isoDate)
-            .add(timeDuration, "years")
-            .format()
-            .match(/[12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])/)[0]);
     } else {
-        return Date.parse(moment(isoDate)
-            .add(timeDuration, "months")
-            .format()
-            .match(/[12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])/)[0]);
+        return "NO EFFECTIVE DATE";
     }
 }
 
-//exporting the formatted date
+//function to  convert the validity/enddate to millisecond. 
+function endDateFormator(StartDateIntoMilliSecond, duration) {
+    //condition if there is no startDate
+    if ((startDateFormator === "undefined") || (StartDateIntoMilliSecond === "")) {
+        return "NO END DATE"
+    }
+    //condition when there is a start date.
+    else {
+        let temp = "";
+        let timeDuration = duration.split(" ")[0];
+        console.log(timeDuration[0]);
+        if ((timeDuration[0] >= 'A' && timeDuration[0] <= 'Z') || (timeDuration[0] >= 'a' && timeDuration[0] <= 'z')) {
+            timeDuration = WtoN.convert(timeDuration);
+
+        }
+        console.log(timeDuration);
+        let date = new Date(StartDateIntoMilliSecond);
+        let isoDate = date.toLocaleDateString().split('/');
+
+        //reversing the date to the ISO date format to change the validity to the millisecond.
+        if (isoDate[0].length === 1) {
+            let temp = "0" + isoDate[0];
+        } else {
+            temp = isoDate[0]
+        }
+
+        if (isoDate[1].length === 1) {
+            isoDate[0] = "0" + isoDate[1]
+        } else {
+            isoDate[0] = isoDate[1];
+        }
+        isoDate[1] = temp;
+
+        isoDate = isoDate.reverse().join('-');
+        console.log(isoDate);
+        //condition when the validity/enddate contains years.
+        if (
+            duration.includes("year") ||
+            duration.includes("years") ||
+            duration.includes("Year") ||
+            duration.includes("Years")
+        ) {
+
+            return Date.parse(moment(isoDate)
+                .add(timeDuration, "years")
+                .format()
+                .match(/[12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])/)[0]);
+        }
+        //condition when exact enddat is given
+        else if (months.includes(duration.split(" ")[0])) {
+            var d = new Date(duration),
+                month = '' + (d.getMonth() + 1),
+                day = '' + d.getDate(),
+                year = d.getFullYear();
+
+            if (month.length < 2) month = '0' + month;
+            if (day.length < 2) day = '0' + day;
+
+            return Date.parse([year, month, day].join('-'));
+
+        }
+        //condition when validity contains the months.
+        else if (duration.includes("month") ||
+            duration.includes("months") ||
+            duration.includes("Month") ||
+            duration.includes("Months")) {
+            return Date.parse(moment(isoDate)
+                .add(timeDuration, "months")
+                .format()
+                .match(/[12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])/)[0]);
+        }
+        //when no validty is not present or the validity is not appropriate.
+        else {
+            return "INVALID ENDDATE"
+        }
+    }
+}
+
+//exporting the formatted startdate and enddate.
 module.exports.startDateFormater = startDateFormator;
 module.exports.endDateFormator = endDateFormator;
