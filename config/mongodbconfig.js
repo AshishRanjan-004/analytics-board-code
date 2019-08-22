@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 //function to connect the database.
 function dbConfig() {
   mongoose
-    .connect("mongodb+srv://zorangcontract:ranjan004@cluster0-1ylvq.mongodb.net/contracts?retryWrites=true&w=majority", {
+    .connect("mongodb+srv://zorangcontract:ranjan008@cluster0-1ylvq.mongodb.net/contracts?retryWrites=true&w=majority", {
       useNewUrlParser: true
     })
     .then(() => console.log("connected to MongoDb"))
